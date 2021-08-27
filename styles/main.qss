@@ -1,0 +1,203 @@
+/* ############ main tap widget ############# */
+
+
+#frame,#frame_2,#frame,#units_frame,#rm_frame,#frame_4{
+border-radius: 10px;}
+
+
+
+
+QTabBar::tab {
+
+    border: 0px solid rgb(0, 0, 0);
+    margin:5px;
+    padding: 10px;
+	border-radius: 5px;
+	
+
+}
+
+
+
+
+#frame_54,QProgressBar,QLineEdit{
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.243781 rgba(62, 62, 62, 0));
+}
+
+
+
+/* ####################### */
+
+QLabel,QCheckBox{
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.243781 rgba(62, 62, 62, 0));
+}
+
+
+QLineEdit , QPushButton , QToolButton , QListWidget::item ,QRadioButton, QPushButton , QSpinBox , QDoubleSpinBox ,  QComboBox  , QDateEdit
+,#frame_7 ,#frame_9,QTextEdit,QProgressBar
+{
+
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.243781 rgba(62, 62, 62, 0));
+
+border-radius: 4px;
+
+}
+QListWidget,#frame_29,#frame_49,#frame_40
+{padding:6px;
+padding:6px;
+border-radius: 10px;
+}
+
+QListWidget:item{
+margin:2;
+}
+QListWidget{
+border-width:0px;
+}
+
+
+QPushButton , QToolButton,QLineEdit, QTextEdit,QComboBox,QDateEdit
+,QSpinBox{border-radius: 10px;
+ padding: 0 6px;
+ }
+
+
+QComboBox::drop-down {
+
+    border-width: 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#materials_and_products_widget::pane{
+
+border-radius: 7px;
+}
+
+QListWidget {
+padding-top:8px;
+
+}
+ QPushButton , QToolButton{
+
+padding:0px;
+}
+
+
+
+QScrollBar{
+width:5px;}
+
+
+QScrollBar:hover{
+width:10px;}
+
+
+QHeaderView::section {
+
+    padding: 4px;
+    border-style: none;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0));
+
+}
+
+
+
+QTableView QTableCornerButton::section {
+
+	color: rgb(255, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0));
+
+
+}
+QTableView {
+ border: 0px ;
+    border-width: 10px ;
+}
+
+
+
+QToolTip{
+	
+	padding:5px;
+	color:rgb(0,0,0);
+}
+
+
+QPushButton , QToolButton{ padding:5px;border-width:2px;}
+
+
+QScrollBar::sub-page ,QScrollBar::add-page{
+	background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0));}
+
+QScrollBar:vertical{
+width:8px;
+}
+
+QScrollBar:horizontal{
+height:8px;
+}
+
+
+QScrollBar:handle
+{
+
+border-radius: 4px;
+}
+ QListWidget::item {
+border-width: 1px;
+padding:6px;
+
+ }
+QScrollBar::add-line ,QScrollBar::sub-line
+{
+      border: none;
+      background: none;
+      color: none;
+}
+
+#frame,#units_frame,#rm_frame,#frame_4{
+border: 0px solid #f1f1f1;
+
+
+}
+QListView {
+    outline: 0;
+}
+QProgressBar::chunk:horizontal{
+	
+border-radius: 6px;
+border-width:0px;
+}
+
+
+
+
+QTabWidget{
+
+	border:0px;
+}
+
+QListView{
+    border-width:0px;
+}
+
+QComboBox::item:selected {                                                                                                      
+    border: none;
+} 
+
+QComboBox QAbstractItemView {
+		border-width:0px;
+        margin-top: 0px;
+    	padding-bottom: 0px;
+	}

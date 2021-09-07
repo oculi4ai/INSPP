@@ -10,7 +10,7 @@ from models import functions , synch_center
 from models.languages import languages
 from models.translation import *
 import sys
-import sh
+
 import socket
 import threading
 import time, datetime
